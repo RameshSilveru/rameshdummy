@@ -1,49 +1,46 @@
-flights[
 {
-{
-"forigin":"Hyderabad(HYD)",
-"fdestination":"LasVegas(LAS)",
-"fdeparts_at":"2016-09-15,7:30",
-"farrives_at":"2016-09-17,3:00",
-"flight_name":"ExpressJet",
-"flight_number":"786"
-"rorigin":"LasVegas(LAS)",
-"rdestination":"Hyderabad(HYD)",
-"rdeparts_at":"2016-09-18,14:30",
-"rarrives_at":"2016-09-20,15:00",
-"flight_name":"ExpressJet",
-"rflightnumber":"876",
-"totalprice":"30,576"
-},
-{
-"forigin":"Delhi(DEL)",
-"fdestination":"London(LON)",
-"fdeparts_at":"2016-09-18,5:00AM",
-"farrives_at":"2016-09-20,3:00PM,
-"flight_name":"JetBlue",
-"flight_number":"456",
-"rorigin":"London(LON)",
-"rdestination":"Delhi(DEL)",
-"rdeparts_at":"2016-09-21T15:30",
-"rarrives_at":"2016-09-23T22:00",
-"flight_name":"ExpressJet",
-"rflightnumber":"965",
-"totalprice":"28,876"
-},
-{
-"forigin":"Tirupathi(TIR)",
-"fdestination":"London Heathrow(LHR)",
-"fdeparts_at":"2016-09-15,2:00PM",
-"farrives_at":"2016-09-17,2:15AM",
-"flight_name":"Delta",
-"flight_number":"724",
-"rorigin":"London Heathrow(LHR)",
-"rdestination":"Tirupathi(TIR)",
-"rdeparts_at":"2016-09-18,11:00",
-"rarrives_at":"2016-09-19,17:00",
-"flight_name":"ExpressJet",
-"rflightnumber":"821",
-"totalprice":"32,345"
-},
+    "flights": [
+        {
+            "forigin": "Hyderabad(HYD)",
+            "fdestination": "LasVegas(LAS)",
+            "fdeparts_at": "2016-09-15,17:30",
+            "farrives_at": "2016-09-17,13:00",
+            "flight_name": "ExpressJet",
+            "flight_number": "786",
+            "rorigin": "LasVegas(LAS)",
+            "rdestination": "Hyderabad(HYD)",
+            "rdeparts_at": "2016-09-18,14:30",
+            "rarrives_at": "2016-09-20,15:00",
+            "rflightnumber": "876",
+            "totalprice": "30,576"
+        },
+        {
+            "forigin": "Delhi(DEL)",
+            "fdestination": "London(LON)",
+            "fdeparts_at": "2016-09-18,15:00",
+            "farrives_at": "2016-09-20,13:00",
+            "flight_name": "ExpressJet",
+            "flight_number": "456",
+            "rorigin": "London(LON)",
+            "rdestination": "Delhi(DEL)",
+            "rdeparts_at": "2016-09-21T15:30",
+            "rarrives_at": "2016-09-23T22:00",
+            "rflightnumber": "965",
+            "totalprice": "28,876"
+        },
+        {
+            "forigin": "Tirupathi(TIR)",
+            "fdestination": "LondonHeathrow(LHR)",
+            "fdeparts_at": "2016-09-15,17:15",
+            "farrives_at": "2016-09-17,2:00",
+            "flight_name": "ExpressJet",
+            "flight_number": "724",
+            "rorigin": "LondonHeathrow(LHR)",
+            "rdestination": "Tirupathi(TIR)",
+            "rdeparts_at": "2016-09-18,11:00",
+            "rarrives_at": "2016-09-19,17:00",
+            "rflightnumber": "821",
+            "totalprice": "32,345"
+        }
+    ]
 }
-]
