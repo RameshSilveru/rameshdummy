@@ -1,0 +1,15 @@
+var message={
+    attachment: {
+        type: "template",
+        payload: {
+            template_type: "generic",
+            elements: [
+                {
+                    title: "ssfggsfgfg",
+                    image_url: "http://lemerg.com/data/wallpapers/17/950803.jpg",
+                    subtitle: labels.dep_label
+                }
+            ]
+        }
+    }
+}print(JSON.stringify(message));
