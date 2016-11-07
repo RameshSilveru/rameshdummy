@@ -1,10 +1,10 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<script src="..libs/jquery.js" type="text/javascript"></script>
-		<script src="..libs/jquery.tmpl.min.js" type="text/javascript"></script>
-		<script src="..libs/jquery-ui.min.js" type="text/javascript"></script>
-		<link href="..libs/jquery-ui.min.css" rel="stylesheet"></link>
+		<script src="libs/jquery.js" type="text/javascript"></script>
+		<script src="libs/jquery.tmpl.min.js" type="text/javascript"></script>
+		<script src="libs/jquery-ui.min.js" type="text/javascript"></script>
+		<link href="libs/jquery-ui.min.css" rel="stylesheet"></link>
 		
 		<script src="../libs/lodash.min.js"></script>
 		<script src='../libs/anonymousassertion.js'></script>
@@ -17,7 +17,7 @@
 
 				// Client has to fill the claims and call the callback.
 				$.ajax({
-					url: "https://qabots.kore.com/api/users/sts",
+					url: "https://devbots.kore.net/api/users/sts",
 					type: 'post',
 					headers: {
 						Authorization: "bearer xyz------"
@@ -32,7 +32,7 @@
 
 			var botOptions = {};
 			botOptions.logLevel = 'debug';
-			botOptions.koreAPIUrl = "https://qabots.kore.com/api/";
+			botOptions.koreAPIUrl = "https://devbots.kore.net/api/";
 			botOptions.assertionFn = assertion;
 			/*
 			 Below config:(To support the anonymous user in test environments only.)
@@ -44,9 +44,9 @@
 			*/
 			botOptions.test = true;
 			botOptions.koreAnonymousFn = koreAnonymousFn;
-			botOptions.clientId   = "cs-3c774c05-b557-59f8-94bd-22709def2fe5"; // secure client-id
+			botOptions.clientId   = "cs-0dcb0cfe-4367-575c-b7bb-7e10943c6383"; // secure client-id
 
-			botOptions.botInfo = {name:"KORE Airlines Bot","_id":"st-f3dd72e2-8e78-569c-8a96-4856ad740946"}; // bot name is case sensitive
+			botOptions.botInfo = {name:"Airline Bot","_id":"st-16abf1de-44bc-5327-9344-1323aa15e0fc"}; // bot name is case sensitive
 			
 			var chatConfig={
 				botOptions:botOptions,
@@ -59,10 +59,8 @@
 			});
 		});
 		</script>
-	</head>
-	<body>
-		<div id="chatContainer">
-		<button class="openChatWindow">Open Chat Window</button>
+		<div id="chatContainer" >
+		<button class="openChatWindow" >Talk to Airline Bot</button>
 		</div>
 	</body>
 </html>
